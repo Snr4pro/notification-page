@@ -1,0 +1,278 @@
+body {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    box-sizing: border-box;
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans';
+}
+
+section {
+    width: 35%;
+    min-width: 325px;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.02);
+}
+
+h2 {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    position: absolute
+}
+
+#notifications {
+    background-color: hsl(218, 71%, 30%);
+    color: white;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+    left: 150px;
+    font-size: 16px
+}
+
+#mark:hover {
+    color: hsl(218, 71%, 30%);
+    cursor: pointer;
+}
+
+p {
+    color: hsl(218, 11%, 55%);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px
+}
+
+.mes-box {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    background: hsl(213, 69%, 97%);
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.mes-boxtwo {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    background: hsl(213, 69%, 97%);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.mes-boxthree {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    background: hsl(213, 69%, 97%);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.mes-box2 {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#comment {
+    width: 100%;
+}
+
+.message:hover {
+    background-color: hsl(213, 94%, 94%);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+img {
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    margin-right: 5px
+}
+
+.mes-text {
+    width: 600px;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+.commented {
+    width: 350px
+}
+
+.message {
+    float: right;
+    margin-left: 65px;
+    width: 540px;
+    height: auto;
+    border: 2px solid hsl(211, 68%, 94%);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: -10px
+}
+
+#chess {
+    float: right;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+#chess:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 5px;
+}
+
+#my-first {
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
+}
+
+#my-first:hover {
+    color: hsl(218, 71%, 30%)
+}
+
+#my-first-kim {
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+}
+
+#empty1,
+#time,
+#follow,
+#time2,
+#joined,
+#time3,
+#private,
+#time4,
+#comment,
+#time5,
+#reacted,
+#my-first-mes,
+#left,
+#time6,
+#time7 {
+    font-weight: 400;
+    color: hsl(219, 14%, 63%)
+}
+
+#dot {
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+    margin-left: 7px;
+}
+
+#dot2 {
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+    margin-left: 7px;
+}
+
+#dot3 {
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+    margin-left: 7px;
+}
+
+#action,
+#strategy {
+    color: hsl(224, 6%, 49%);
+    font-weight: 600;
+}
+
+#group,
+#group2 {
+    color: hsl(218, 71%, 30%);
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1465px) {
+    #chess {
+        margin-left: 5%
+    }
+
+    .commented {
+        width: 100%
+    }
+}
+
+@media (max-width: 910px) {
+    .top {
+        display: block;
+        margin-top: 0px
+    }
+
+    h2 {
+        margin-top: 0px
+    }
+
+    #notifications {
+        margin-left: 130px;
+        margin-top: 0px
+    }
+}
