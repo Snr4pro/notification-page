@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="notification.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Plus+Jakarta+Sans:wght@400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Plus+Jakarta+Sans:wght@700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/expo-cli@6.0.8/build/exp.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <section>
+    <div class="top">
+      <h2>Notifications</h2>
+      <span id="notifications"></span>
+      <p id="mark" onClick="color()">Mark all as read</p>
+    </div>
+    <div class="mes-box" onClick="backColor()" class="active">
+      <img src="assets/images/avatar-mark-webber.webp" alt="mark">
+      <div class="mes-text">
+        <p id="my-first" class="unread">Mark Webber <span id="empty1"></span> <span id="action"></span><img
+            src="circle-solid-red.png" alt="dot" id="dot"><br>
+          <span id="time"></span>
+        </p>
+      </div>
+    </div>
+    <div class="mes-boxtwo" onClick="backColorAng()" class="active">
+      <img src="assets/images/avatar-angela-gray.webp" alt="angela">
+      <div class="mes-text">
+        <p id="my-first" class="unread">Angela Gray <span id="follow"></span><img src="circle-solid-red.png" alt="dot"
+            id="dot2"><br>
+          <span id="time2"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mes-boxthree" onClick="backColorJac()" class="active">
+      <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob">
+      <div class="mes-text">
+        <p id="my-first" class="unread">Jacob Thompson <span id="joined"></span> <span id="group"></span><img
+            src="circle-solid-red.png" alt="dot" id="dot3"><br>
+          <span id="time3"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mes-box2">
+      <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky">
+      <div class="mes-text">
+        <p id="my-first">Ritzky Hasanuddin <span id="private"></span> <span id="group"></span>
+          <!--<img
+            src="circle-solid-red.png" alt="dot" id="dot">--><br>
+          <span id="time4"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mes-box2">
+      <div class="message">
+        <p id="my-first-mes">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having
+          lots of fun and improving my game.
+        </p>
+      </div>
+    </div>
+
+    <div class="mes-box2">
+      <img src="assets/images/avatar-kimberly-smith.webp" alt="kim">
+      <div class="mes-text">
+        <p id="my-first" class="commented">Kimberly Smith <span id="comment"></span><br>
+          <span id="time5"></span>
+        </p>
+      </div>
+      <img src="assets/images/image-chess.webp" alt="chess" id="chess">
+    </div>
+
+    <div class="mes-box2">
+      <img src="assets/images/avatar-nathan-peterson.webp" alt="nathan">
+      <div class="mes-text">
+        <p id="my-first">Nathan Peterson <span id="reacted"></span> <span id="strategy"></span><br>
+          <!--<img src="circle-solid-red.png" alt="dot" id="dot"><br>-->
+          <span id="time6"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mes-box2">
+      <img src="assets/images/avatar-anna-kim.webp" alt="anna">
+      <div class="mes-text">
+        <p id="my-first">Anna Kim <span id="left"></span> <span id="group2"></span><br>
+          <!--<img src="circle-solid-red.png" alt="dot" id="dot"><br>-->
+          <span id="time7"></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!--Angela Gray followed you
+  5m ago
+
+  Jacob Thompson has joined your group Chess Club
+  1 day ago
+
+  Rizky Hasanuddin sent you a private message
+  5 days ago
+
+
+
+  Kimberly Smith commented on your picture
+  1 week ago
+
+  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
+  2 weeks ago
+
+  Anna Kim left the group Chess Club
+  2 weeks ago
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Steve Reaves</a>.
+  </div>-->
+
+  <script src="assets/notifications.js"></script>
+</body>
+
+</html>
